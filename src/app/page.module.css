@@ -3,10 +3,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 0rem;
   min-height: 100vh;
 }
-
+.blogheader .blogs{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.mian .navbar ul li:hover{
+  color:rgb(65, 13, 124);
+  scale: 1.8rem;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -227,4 +235,15 @@
   to {
     transform: rotate(0deg);
   }
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+    margin-top: 50px;
+}
+
+.navbar ul li{
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
 }

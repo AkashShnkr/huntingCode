@@ -1,0 +1,29 @@
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer_links {
+   
+    margin-top: 50px;
+    background-color: #17925d
+  }
+  
+  .footer_links a {
+    justify-content:end;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Add specific styles for icons if needed */
+  .footer-links svg {
+    width: 24px;
+    height: 24px;
+  }
+  
